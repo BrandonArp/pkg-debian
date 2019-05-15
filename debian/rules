@@ -69,6 +69,7 @@ confflags += --disable-aquaero
 # lvm is deprecated and no longer shipping
 confflags += --disable-lvm
 confflags += --disable-gpu_nvidia
+confflags += --disable-intel_rdt
 
 # libjevents is required for the intel_pmu plugin
 confflags += --disable-intel_pmu
