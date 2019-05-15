@@ -66,6 +66,9 @@ confflags += --disable-tape
 # libaquaero5 is required for the aquaero plugin
 confflags += --disable-aquaero
 
+# lvm is deprecated and no longer shipping
+confflags += --disable-lvm
+
 # libjevents is required for the intel_pmu plugin
 confflags += --disable-intel_pmu
 
