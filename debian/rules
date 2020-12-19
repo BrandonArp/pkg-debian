@@ -201,7 +201,7 @@ ifeq (,$(filter amd64 arm64 armel armhf i386 ppc64el powerpc, $(DEB_HOST_ARCH)))
 endif
 
 confflags += --disable-intel_pmu \
-	     --disable-redfish
+	     --disable-redfish \
 	     --disable-ipstats
 
 build: build-arch build-indep
