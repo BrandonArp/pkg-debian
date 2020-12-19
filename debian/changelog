@@ -1,7 +1,8 @@
 collectd (5.12.1-1) unstable; urgency=medium
+
   * Updates!
 
- -- Brandon Arp <brandonarp@gmail.com> Fri, 18 Dec 2020 00:01:12 -0700
+ -- Brandon Arp <brandonarp@gmail.com>  Fri, 18 Dec 2020 00:01:12 -0700
 
 collectd (5.8.1-1) unstable; urgency=medium
 
