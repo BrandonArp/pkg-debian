@@ -205,7 +205,7 @@ build-arch: build-stamp
 build-indep: build-stamp
 
 build-stamp:
-	echo $(PWD)
+	echo `pwd`
 	dh_testdir
 	
 	dh_autoreconf
@@ -222,7 +222,7 @@ build-stamp:
 	touch build-stamp
 
 clean:
-	echo $(PWD)
+	echo `pwd`
 	dh_testdir
 	dh_testroot
 	rm -f build-stamp
