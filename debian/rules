@@ -200,6 +200,8 @@ ifeq (,$(filter amd64 arm64 armel armhf i386 ppc64el powerpc, $(DEB_HOST_ARCH)))
 	confflags += --disable-grpc
 endif
 
+confflags += --disable-intel_pmu
+
 build: build-arch build-indep
 build-arch: build-stamp
 build-indep: build-stamp
