@@ -205,6 +205,7 @@ confflags += --disable-intel_pmu \
 	     --disable-netstat_udp \
 	     --disable-dcpmm \
 	     --disable-amqp1 \
+	     --disable-slurm \
 	     --disable-ipstats
 
 build: build-arch build-indep
