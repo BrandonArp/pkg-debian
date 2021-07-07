@@ -99,7 +99,7 @@ confflags += --disable-varnish
 
 # temporarily disable mqtt plugin, as #911265, #911266 blocks collectd from
 # migrating to testing.
-confflags += --disable-mqtt
+#confflags += --disable-mqtt
 
 # These plugins are Linux-specific.
 ifeq ($(DEB_HOST_ARCH_OS),kfreebsd)
