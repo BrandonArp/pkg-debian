@@ -137,6 +137,10 @@ confflags += \
 confflags += \
 		--disable-tokyotyrant
 
+# Ganglia isn't building on newer ubuntu, disabling
+confflags += \
+		--disable-gmond
+
 # These plugins have not been ported to FreeBSD yet.
 ifeq ($(DEB_HOST_ARCH_OS),kfreebsd)
 	# Work-around an incomplete check for kvm functionality
