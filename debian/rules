@@ -133,6 +133,10 @@ endif
 confflags += \
 		--disable-zone
 
+# Tokyotyrant is long dead
+confflags += \
+		--disable-tokyotyrant
+
 # These plugins have not been ported to FreeBSD yet.
 ifeq ($(DEB_HOST_ARCH_OS),kfreebsd)
 	# Work-around an incomplete check for kvm functionality
